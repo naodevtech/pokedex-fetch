@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #DC0A2D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* background-color: blue; */
+    height: 100%;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100%;
+    width: 20vw;
+    background-color: rgba(128, 128, 128, 0.452);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.box h1{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h1::first-letter{
+    text-transform: uppercase;
+}
+
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.712);
+}
