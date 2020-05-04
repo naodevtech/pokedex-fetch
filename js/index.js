@@ -25,10 +25,3 @@ function fetching(){
     }
 }
 fetching()
-
-let histories = JSON.parse(localStorage.getItem('pokemons')) || [];
-console.log(histories)
-
-boxPokemon.forEach((box) => box.addEventListener('click', (e) =>{
-    console.log(e)
-}))
